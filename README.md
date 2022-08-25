@@ -4,7 +4,6 @@ Proyecto Mision TIC Ciclo 3
 INTEGRANTES:
 •	2222736 – Edwin Eladio Fandiño Salazar – Product Owner
 •	2223436 – Karen Bibiana Rodriguez Lopez – Scrum Máster
-•	2223508 – Luis Eduardo Reyes Amado – Desarrollador
 •	2223570 – Cristian Andrés Jaraba Londoño – Desarrollador
 •	2222320 – William Daniel Salinas Forero – Desarrollador
 
