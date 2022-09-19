@@ -32,6 +32,27 @@ public class Demo {
             System.out.println(ax.toString());
         });
         
+        Proveedor pr = new Proveedor();
+        
+        List<Proveedor> proveedores = pr.consultarProveedor();
+        proveedores.forEach(ax -> {
+            System.out.println(ax.toString());
+        });
+        
+        Producto p = new Producto();
+        
+        List<Producto> productos = p.consultarProducto();
+        productos.forEach(ax -> {
+            System.out.println(ax.toString());
+        });
+        
+        Venta v = new Venta();
+        
+        List<Venta> ventas = v.consultarVenta();
+        ventas.forEach(ax -> {
+            System.out.println(ax.toString());
+        });
+        
     }
     
 }

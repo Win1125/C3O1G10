@@ -92,11 +92,12 @@ public class Proveedor {
             
             while(rs.next()){
                 p = new Proveedor();
+                p.setIdProveedor(rs.getInt("idProveedor"));
+                p.setNombreProveedor(rs.getString("nombreProveedor"));
                 p.setContacto(rs.getString("contacto"));
                 p.setCorreo(rs.getString("correo"));
-                p.setIdProveedor(rs.getInt("idProveedor"));
                 p.setNit(rs.getString("nit"));
-                p.setNombreProveedor(rs.getString("nombreProveedor"));
+                
                 proveedores.add(p);
             }
         }catch(SQLException ex){

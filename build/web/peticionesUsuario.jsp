@@ -78,9 +78,9 @@
             try {
                 Usuario u = new Usuario();
                 List<Usuario> lista = u.consultarUsuario();
-                respuesta += "\"" + proceso + "\": true,\"usuario\":" + new Gson().toJson(lista);
+                respuesta += "\"" + proceso + "\": true,\"usuarios\":" + new Gson().toJson(lista);
             } catch (Exception ex) {
-                respuesta += "\"" + proceso + "\": true,\"usuario\":[]";
+                respuesta += "\"" + proceso + "\": true,\"usuarios\":[]";
                 Logger.getLogger(Usuario.class.getName()).log(Level.SEVERE, null, ex);
             }
         } else if (proceso.equals("actualizar")) {

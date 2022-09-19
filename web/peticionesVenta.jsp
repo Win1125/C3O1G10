@@ -73,9 +73,9 @@
             try {
                 Venta v = new Venta();
                 List<Venta> lista = v.consultarVenta();
-                respuesta += "\"" + proceso + "\": true,\"venta\":" + new Gson().toJson(lista);
+                respuesta += "\"" + proceso + "\": true,\"ventas\":" + new Gson().toJson(lista);
             } catch (Exception ex) {
-                respuesta += "\"" + proceso + "\": true,\"venta\":[]";
+                respuesta += "\"" + proceso + "\": true,\"ventas\":[]";
                 Logger.getLogger(Venta.class.getName()).log(Level.SEVERE, null, ex);
             }
         } else if (proceso.equals("actualizar")) {

@@ -77,9 +77,9 @@
             try {
                 Producto pd = new Producto();
                 List<Producto> lista = pd.consultarProducto();
-                respuesta += "\"" + proceso + "\": true,\"Productos\":" + new Gson().toJson(lista);
+                respuesta += "\"" + proceso + "\": true,\"productos\":" + new Gson().toJson(lista);
             } catch (Exception ex) {
-                respuesta += "\"" + proceso + "\": true,\"Productos\":[]";
+                respuesta += "\"" + proceso + "\": true,\"productos\":[]";
                 Logger.getLogger(Producto.class.getName()).log(Level.SEVERE, null, ex);
             }
         } else if (proceso.equals("actualizar")) {

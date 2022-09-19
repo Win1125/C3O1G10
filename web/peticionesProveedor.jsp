@@ -75,9 +75,9 @@
             try {
                 Proveedor pr = new Proveedor();
                 List<Proveedor> lista = pr.consultarProveedor();
-                respuesta += "\"" + proceso + "\": true,\"Proveedor\":" + new Gson().toJson(lista);
+                respuesta += "\"" + proceso + "\": true,\"proveedores\":" + new Gson().toJson(lista);
             } catch (Exception ex) {
-                respuesta += "\"" + proceso + "\": true,\"Proveedor\":[]";
+                respuesta += "\"" + proceso + "\": true,\"proveedores\":[]";
                 Logger.getLogger(Proveedor.class.getName()).log(Level.SEVERE, null, ex);
             }
         } else if (proceso.equals("actualizar")) {
