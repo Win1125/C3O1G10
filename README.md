@@ -3,9 +3,6 @@ Proyecto Mision TIC Ciclo 3
 
 INTEGRANTES:
 •	2222736 – Edwin Eladio Fandiño Salazar – Product Owner
-•	2223436 – Karen Bibiana Rodriguez Lopez – Scrum Máster
-•	2223570 – Cristian Andrés Jaraba Londoño – Desarrollador
-•	2222320 – William Daniel Salinas Forero – Desarrollador
 
 Este sistema brindara soporte para el control de inventarios de la tienda mibarrio, 
 en el cual podrá iniciar sesión un administrador o un empleado para el uso de 
